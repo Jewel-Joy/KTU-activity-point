@@ -1,0 +1,77 @@
+/* StudentAuth.css */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light Blue Background */
+    padding: 10px;
+  }
+  
+  .auth-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .auth-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .auth-input {
+    padding: 12px;
+    border: 1px solid #4a90e2;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .auth-button {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #357ABD;
+  }
+  
+  .auth-toggle {
+    margin-top: 15px;
+    color: #4a90e2;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .auth-toggle:hover {
+    text-decoration: underline;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: #4a90e2;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
